@@ -1,0 +1,23 @@
+ol > li > a::before {
+  @apply mr-1 text-primary-400 text-right;
+  content: '0' counter(item) '.';
+}
+
+ol > li {
+  counter-increment: item 1;
+}
+
+section {
+  max-width: 1000px;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.big-heading {
+  font-size: clamp(38px, 8vw, 72px);
+}
+
+.numbered-heading {
+  font-size: clamp(22px, 5vw, 28px);
+  white-space: nowrap;
+}

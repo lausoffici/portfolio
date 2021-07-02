@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 337.3 368.5" style="enable-background:new 0 0 337.3 368.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#64FFDA;}
+	.st1{clip-path:url(#SVGID_2_);}
+</style>
+<symbol  id="glyph0-1" viewBox="-32.7 -55.9 65.5 111.8">
+	<path class="st0" d="M32.7,38.7v17.2h-65.5V-55.9h20.8v94.6H32.7z"/>
+</symbol>
+<g id="surface1">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" y="1" width="337.5" height="367.5"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+			<path class="st0" d="M333.5,93.9L172.6,2c-2.4-1.3-5.2-1.3-7.6,0L4,93.9c-2.4,1.4-3.9,3.9-3.9,6.6V269c0,2.7,1.5,5.3,3.9,6.6
+				l160.9,91.9c1.2,0.7,2.5,1,3.8,1c1.3,0,2.6-0.3,3.8-1l160.9-91.9c2.4-1.4,3.9-3.9,3.9-6.6V100.5
+				C337.3,97.8,335.9,95.3,333.5,93.9z M322,264.5L168.8,352L15.5,264.5V105l153.3-87.5L322,105V264.5z"/>
+		</g>
+	</g>
+	<g>
+		
+			<use xlink:href="#glyph0-1"  width="65.5" height="111.8" x="-32.7" y="-55.9" transform="matrix(1 0 0 1 173.7896 187.9398)" style="overflow:visible;"/>
+	</g>
+</g>
+</svg>
