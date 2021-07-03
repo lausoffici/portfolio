@@ -39,9 +39,9 @@ const Header = () => {
         </a>
       </div>
       <div className="flex flex-col md:hidden w-6 h-6">
-        <div className="h-[2px] bg-primary-400 mb-1" />
-        <div className="h-[2px] bg-primary-400 mb-1" />
-        <div className="h-[2px] bg-primary-400" />
+        <div className="h-[2px] bg-green mb-1" />
+        <div className="h-[2px] bg-green mb-1" />
+        <div className="h-[2px] bg-green" />
       </div>
     </header>
   )

@@ -1,5 +1,5 @@
 ol > li > a::before {
-  @apply mr-1 text-primary-400 text-right;
+  @apply mr-1 text-green text-right;
   content: '0' counter(item) '.';
 }
 
@@ -23,5 +23,5 @@ section {
 }
 
 .hover-primary {
-  @apply hover:text-primary-400 transition-all duration-300 ease-in-out;
+  @apply hover:text-green transition-all duration-300 ease-in-out;
 }
