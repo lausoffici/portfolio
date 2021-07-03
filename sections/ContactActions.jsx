@@ -16,7 +16,7 @@ const ContactActions = () => {
               <li key={l} className="p-3.5">
                 <a>
                   <Logo
-                    className="hover:text-primary-400 ease-in-out duration-300 transition-all hover:-translate-y-1 cursor-[ne-resize]"
+                    className="hover-primary hover:-translate-y-1 cursor-[ne-resize]"
                     width={20}
                     height={20}
                   />
@@ -30,7 +30,7 @@ const ContactActions = () => {
       <div className="w-10 fixed bottom-0 right-5 lg:right-10 left-auto font-mono">
         <div className="flex flex-col items-center relative">
           <a
-            className="text-sm tracking-widest my-2 hover:text-primary-400 ease-in-out duration-300 transition-all hover:-translate-y-1 cursor-pointer"
+            className="text-sm tracking-widest my-2 hover-primary hover:-translate-y-1 cursor-pointer"
             style={{ writingMode: 'vertical-rl' }}
             href="mailto:lautarosoffici@gmail.com"
           >

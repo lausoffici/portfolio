@@ -6,7 +6,7 @@ const Footer = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <p className="text-sm hover:text-primary-400 hover:cursor-[ne-resize] transition-all duration-200 ease-in-out">
+        <p className="text-sm hover:cursor-[ne-resize] hover-primary">
           Designed by Brittany Chiang and built by me
         </p>
       </a>
