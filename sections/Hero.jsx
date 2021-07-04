@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="flex flex-col items-start justify-center min-h-[100vh] py-0">
       <h1 className="font-mono text-green mb-4 text-lg">Hi, my name is</h1>
       <div className="font-bold text-7xl mb-8">
-        <h2 className="big-heading text-primary-200 mb-4">Lautaro Soffici.</h2>
+        <h2 className="big-heading text-white mb-4">Lautaro Soffici.</h2>
         <h3 className="big-heading text-primary-300">
           I build things for the web.
         </h3>

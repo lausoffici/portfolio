@@ -10,11 +10,11 @@ module.exports = {
     colors: {
       primary: {
         100: '#A8B2D1',
-        200: '#ccd6f6',
         300: '#8892b0',
         500: '#233554',
         600: '#0a192f',
       },
+      white: '#ccd6f6',
       green: '#64ffda',
     },
   },

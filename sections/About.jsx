@@ -3,9 +3,7 @@ const About = () => {
     <section id="about" className="max-w-[900px]">
       <div className="flex items-center w-full mt-3 mb-8">
         <h3 className="font-mono text-green text-2xl mr-3">01.</h3>
-        <h2 className="numbered-heading font-bold text-primary-200 mr-6">
-          About Me
-        </h2>
+        <h2 className="numbered-heading font-bold text-white mr-6">About Me</h2>
         <span className="w-full md:w-[300px] h-[1px] bg-primary-500" />
       </div>
       <div className="text-primary-300 text-lg">
