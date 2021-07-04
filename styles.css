@@ -1,16 +1,21 @@
-ol > li > a::before {
-  @apply mr-1 text-green text-right;
-  content: '0' counter(item) '.';
-}
-
-ol > li {
-  counter-increment: item 1;
+body {
+  @apply text-primary;
+  background: #0a192f;
 }
 
 section {
   max-width: 1000px;
   padding: 100px 0;
   margin: 0 auto;
+}
+
+ol li {
+  counter-increment: item 1;
+}
+
+ol li a::before {
+  @apply mr-1 text-green text-right;
+  content: '0' counter(item) '.';
 }
 
 .big-heading {
@@ -22,6 +27,6 @@ section {
   white-space: nowrap;
 }
 
-.hover-primary {
+.hover-green {
   @apply hover:text-green transition-all duration-300 ease-in-out;
 }

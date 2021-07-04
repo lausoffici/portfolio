@@ -4,9 +4,9 @@ const About = () => {
       <div className="flex items-center w-full mt-3 mb-8">
         <h3 className="font-mono text-green text-2xl mr-3">01.</h3>
         <h2 className="numbered-heading font-bold text-white mr-6">About Me</h2>
-        <span className="w-full md:w-[300px] h-[1px] bg-primary-500" />
+        <span className="w-full md:w-[300px] h-[1px] bg-[#233554]" />
       </div>
-      <div className="text-primary-300 text-lg">
+      <div className="text-lg">
         <p className="mb-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae
           sapien eu augue sollicitudin bibendum malesuada non leo. Proin

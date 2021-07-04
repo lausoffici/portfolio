@@ -29,7 +29,7 @@ const Header = () => {
       <div className="hidden md:flex">
         <ol className="flex justify-center items-center mr-4">
           {navBarItems.map((item) => (
-            <li key={item.name} className="mx-1 p-2.5 hover-primary">
+            <li key={item.name} className="mx-1 p-2.5 hover-green">
               <a href={item.href}>{item.name}</a>
             </li>
           ))}
