@@ -10,7 +10,7 @@ const Footer = () => {
         >
           Designed by Brittany Chiang
         </a>
-        <div className="hidden sm:block mx-2 cursor-default">|</div>
+        <span className="hidden sm:block mx-2 cursor-default">|</span>
         <a
           href="https://github.com/lausoffici/portfolio"
           target="_blank"

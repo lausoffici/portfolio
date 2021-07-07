@@ -1,21 +1,36 @@
 import GithubLogo from '../public/imgs/github.svg'
-import InstagramLogo from '../public/imgs/instagram.svg'
 import LinkedinLogo from '../public/imgs/linkedin.svg'
 import TwitterLogo from '../public/imgs/twitter.svg'
 
-const logos = [GithubLogo, InstagramLogo, TwitterLogo, LinkedinLogo]
+const actions = [
+  {
+    href: 'https://github.com/lausoffici',
+    svg: GithubLogo,
+    alt: 'GitHub',
+  },
+  {
+    href: 'https://twitter.com/lsoffici',
+    svg: TwitterLogo,
+    alt: 'Twitter',
+  },
+  {
+    href: 'https://linkedin.com/in/lautarosoffici/',
+    svg: LinkedinLogo,
+    alt: 'LinkedIn',
+  },
+]
 
 const ContactActions = () => {
   return (
     <div className="hidden md:block text-[#A8B2D1]">
       <div className="w-10 fixed bottom-0 left-5 lg:left-10 right-auto">
         <ul className="flex flex-col items-center relative">
-          {logos.map((l) => {
-            const Logo = l
+          {actions.map((a) => {
+            const LogoSvg = a.svg
             return (
-              <li key={l} className="p-3.5">
-                <a>
-                  <Logo
+              <li key={a.href} className="p-3.5">
+                <a href={a.href} target="_blank" rel="noreferrer">
+                  <LogoSvg
                     className="hover-green hover:-translate-y-1 cursor-[ne-resize]"
                     width={20}
                     height={20}
