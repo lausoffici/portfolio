@@ -30,3 +30,14 @@ ol li a::before {
 .hover-green {
   @apply hover:text-green transition-all duration-300 ease-in-out;
 }
+
+ul.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  overflow: hidden;
+}
+
+ul.skills-list li::before {
+  @apply text-green mr-2;
+  content: '▹';
+}
