@@ -37,7 +37,7 @@ ul.skills-list {
   overflow: hidden;
 }
 
-ul.skills-list li::before {
+ul.styled li::before {
   @apply text-green mr-2;
   content: '▹';
 }
