@@ -11,7 +11,13 @@ module.exports = {
       white: '#ccd6f6',
       primary: '#8892b0',
       green: '#64ffda',
+      light: '#112240',
+      gray: '#A8B2D1',
     },
+    fill: (theme) => ({
+      gray: theme('colors.gray'),
+      green: theme('colors.green'),
+    }),
   },
   variants: {
     extend: {},
