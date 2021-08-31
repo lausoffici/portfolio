@@ -4,22 +4,21 @@ import GithubIcon from '../../public/imgs/github.svg'
 
 const Project = ({ title, description, github, demo, tools }) => {
   return (
-    <div className="bg-light py-8 px-7 rounded text-white flex flex-col justify-between h-[100%]">
+    <a
+      href={github}
+      target="_blank"
+      rel="noreferrer"
+      aria-label="External Link"
+      className="bg-light py-8 px-7 rounded text-white flex flex-col justify-between h-[100%] hover:-translate-y-2 transition-all duration-200 ease-in-out cursor-pointer hover:text-green"
+    >
       <div className="flex justify-between items-center mb-6">
         <FolderIcon className="test" width={40} />
         <div className="flex items-center">
-          <a
-            href={github}
-            target="_blank"
-            rel="noreferrer"
-            aria-label="External Link"
-          >
-            <GithubIcon
-              className="text-gray hover-green"
-              width={22}
-              alt="Github"
-            />
-          </a>
+          <GithubIcon
+            className="text-gray hover-green"
+            width={22}
+            alt="Github"
+          />
           {demo && (
             <a
               href={demo}
@@ -44,7 +43,7 @@ const Project = ({ title, description, github, demo, tools }) => {
           <li key={tool}>{tool}</li>
         ))}
       </ul>
-    </div>
+    </a>
   )
 }
 
