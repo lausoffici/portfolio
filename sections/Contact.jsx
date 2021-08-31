@@ -2,7 +2,7 @@ import Button from '../components/Button'
 
 export default function Contact() {
   return (
-    <section className="text-center max-w-[600px] mb-[100px]">
+    <section id="contact" className="text-center max-w-[600px] mb-[100px]">
       <h2 className="font-mono text-green text-lg">04. What&apos;s Next?</h2>
       <h2 className="medium-heading font-bold text-white mb-4">Get In Touch</h2>
       <p className="text-lg mb-12">

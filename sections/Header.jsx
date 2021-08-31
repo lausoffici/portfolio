@@ -12,11 +12,11 @@ const navBarItems = [
   },
   {
     name: 'Work',
-    href: '#',
+    href: '/#projects',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/#contact',
   },
 ]
 
