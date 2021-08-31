@@ -2,7 +2,7 @@ import GithubLogo from '../public/imgs/github.svg'
 import LinkedinLogo from '../public/imgs/linkedin.svg'
 import TwitterLogo from '../public/imgs/twitter.svg'
 
-const actions = [
+export const actions = [
   {
     href: 'https://github.com/lausoffici',
     svg: GithubLogo,
@@ -30,7 +30,7 @@ const ContactActions = () => (
             <li key={a.href} className="p-3.5">
               <a href={a.href} target="_blank" rel="noreferrer">
                 <LogoSvg
-                  className="hover-green hover:-translate-y-1 cursor-[ne-resize]"
+                  className="hover-green hover:-translate-y-1"
                   width={20}
                   height={20}
                 />

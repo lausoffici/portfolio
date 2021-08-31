@@ -20,10 +20,8 @@ const Project = ({ title, description, github, demo, tools }) => {
             alt="Github"
           />
           {demo && (
-            <a
-              href={demo}
-              target="_blank"
-              rel="noreferrer"
+            <div
+              onClick={() => window.open(demo, '_blank')}
               aria-label="External Link"
             >
               <ExternalLinkIcon
@@ -31,7 +29,7 @@ const Project = ({ title, description, github, demo, tools }) => {
                 width={20}
                 alt="Demo"
               />
-            </a>
+            </div>
           )}
         </div>
       </div>
