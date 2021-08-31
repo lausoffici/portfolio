@@ -6,6 +6,7 @@ import About from '../sections/About'
 import Footer from '../sections/Footer'
 import Works from '../sections/Works'
 import Projects from '../sections/Projects'
+import Contact from '../sections/Contact'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <ContactActions />
         <Works />
         <Projects />
+        <Contact />
       </main>
       <Footer />
     </div>
