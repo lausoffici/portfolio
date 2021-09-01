@@ -2,40 +2,50 @@ import SectionHeader from '../components/SectionHeader'
 
 const skills = [
   'JavaScript (ES6+)',
-  'React',
   'Node.js',
-  '.NET Core',
-  'SQL',
+  'Next.js',
+  'TailwindCSS',
   'TypeScript',
+  'REST',
 ]
+
+const Link = ({ children, href }) => (
+  <a
+    href={href}
+    target="blank"
+    rel="noopener noreferrer"
+    className="text-green border-green hover:border-b-[1px]"
+  >
+    {children}
+  </a>
+)
 
 const About = () => (
   <section id="about" className="max-w-[900px]">
     <SectionHeader number="01." title="About Me" />
     <div className="text-lg">
       <p className="mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae
-        sapien eu augue sollicitudin bibendum malesuada non leo. Proin
-        ullamcorper, tortor nec venenatis accumsan, purus lacus varius orci, ut
-        feugiat tellus eros laoreet orci. Nunc et tempus enim. Maecenas eu
-        sodales risus. Sed iaculis sit amet lectus id tincidunt. Maecenas at
-        ligula ut augue tincidunt iaculis nec quis nibh. Nunc dui ligula,
-        fringilla et lectus nec, sodales feugiat enim.
+        Hello! My name is Lautaro and i enjoy programming. My interest in
+        software development started back in 2016 when i begin the career of
+        Systems Engineering at{' '}
+        <Link href="https://frba.utn.edu.ar/">UTN FRBA</Link>. There I started
+        learning algorithms and imperative programming using C++. Then we learnt
+        the different programming paradigms focusing on OOP using Java. As well
+        we studied relational and no-relational Databases and Front-end
+        technologies for build a Full-Stack project.
       </p>
       <p className="mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae
-        sapien eu augue sollicitudin bibendum malesuada non leo. Proin
-        ullamcorper, tortor nec venenatis accumsan, purus lacus varius orci, ut
-        feugiat tellus eros laoreet orci. Nunc et tempus enim. Maecenas eu
-        sodales risus. Sed iaculis sit amet lectus id tincidunt. Maecenas at
-        ligula ut augue tincidunt iaculis nec quis nibh. Nunc dui ligula,
-        fringilla et lectus nec, sodales feugiat enim.
+        When I got my first job at{' '}
+        <Link href="http://datastar.com.ar/">Datastar</Link> I could consolidate
+        my knowledge by maintaining both front-end (web & mobile) and back-end
+        applications. There I learnt a few technologies like Angular,
+        TypeScript, .NET Core, PostgreSQL and Hibernate.
       </p>
       <p className="mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae
-        sapien eu augue sollicitudin bibendum malesuada non leo. Proin
-        ullamcorper, tortor nec venenatis accumsan, purus lacus varius orci, ut
-        feugiat tellus eros laoreet orci. Nunc et tempus enim.
+        Currently, I am working developing a Next.js application at{' '}
+        <Link href="https://institucional.telecom.com.ar/">Telecom</Link>. I
+        love React.js and Next.js so I&apos;m looking for getting experience on
+        these technologies and the Front-end development.
       </p>
       <p>Here are a few technologies I&#39;ve been working with recently:</p>
       <ul className="styled skills-list font-mono text-sm mt-6">

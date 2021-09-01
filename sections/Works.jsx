@@ -10,9 +10,11 @@ const data = [
     },
     range: 'Mar 2021 - Present',
     tasks: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae sapien eu augue sollicitudin bibendum malesuada non leo.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae sapien eu augue sollicitudin bibendum malesuada non leo.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae sapien eu augue sollicitudin bibendum malesuada non leo.',
+      "Development of a Next.js app, currently on an project's MVP stage.",
+      'Propose refactors and new tools in order to achieve technical requirements.',
+      'Promove team-working and communication.',
+      'Consume of RESTful third party vendors.',
+      'Team mentoring.',
     ],
   },
   {
@@ -20,9 +22,11 @@ const data = [
     company: { name: 'Datastar', website: 'http://www.datastar.com.ar/' },
     range: 'Jul 2019 - Mar 2021',
     tasks: [
-      'Sed iaculis sit amet lectus id tincidunt. Maecenas at ligula ut augue tincidunt iaculis nec quis nibh.',
-      'Sed iaculis sit amet lectus id tincidunt. Maecenas at ligula ut augue tincidunt iaculis nec quis nibh.',
-      'Sed iaculis sit amet lectus id tincidunt. Maecenas at ligula ut augue tincidunt iaculis nec quis nibh.',
+      'Complete implementation of new requirements.',
+      'Research and incorporation of new technologies.',
+      'Code refactor and bug fixes.',
+      'Database migrations.',
+      'Peer code review.',
     ],
   },
 ]
