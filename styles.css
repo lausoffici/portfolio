@@ -23,7 +23,7 @@ ol li a::before {
 }
 
 .big-heading {
-  font-size: clamp(38px, 8vw, 72px);
+  font-size: clamp(38px, 4vw, 72px);
 }
 
 .medium-heading {
