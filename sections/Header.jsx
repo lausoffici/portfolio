@@ -40,7 +40,7 @@ const Header = () => {
       className="fixed flex justify-between items-center w-full px-[25px] md:px-[50px] font-mono text-sm bg-[#0a192f]"
       style={{
         transform: isVisible ? 'translateY(0)' : 'translateY(-100%)',
-        transition: 'transform 250ms ease-in, height 500ms ease-in-out',
+        transition: 'transform 250ms ease-in, height 300ms ease-in-out',
         height: isScrolled ? 70 : 100,
         boxShadow: isScrolled ? '0 10px 30px -10px #020c1bb3' : '',
       }}
