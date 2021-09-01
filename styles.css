@@ -60,7 +60,7 @@ aside ol li a::before {
 }
 
 .blur-content {
-  filter: blur(5px) brightness(0.7);
+  @apply filter md:filter-none brightness-75 blur-sm;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   pointer-events: none;
   user-select: none;
