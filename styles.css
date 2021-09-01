@@ -49,3 +49,12 @@ ul.styled li::before {
   @apply text-green mr-2;
   content: '▹';
 }
+
+aside ol li a::before {
+  @apply block text-center mb-2 text-sm;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}

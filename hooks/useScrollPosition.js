@@ -29,6 +29,7 @@ export function useScrollPosition(effect, deps, element, useWindow, wait) {
     const handleScroll = () => {
       if (wait) {
         if (throttleTimeout === null) {
+          // eslint-disable-next-line react-hooks/exhaustive-deps
           throttleTimeout = setTimeout(callBack, wait)
         }
       } else {
