@@ -29,8 +29,7 @@ const Header = () => {
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
-      const isShow = currPos.y > prevPos.y || currPos.y > -10
-      console.log(currPos.y)
+      const isShow = currPos.y > prevPos.y || currPos.y > -5
       if (isShow !== isVisible) setIsVisible(isShow)
       setIsScrolled(currPos.y !== 0)
     },
