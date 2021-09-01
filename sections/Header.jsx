@@ -23,22 +23,26 @@ const navBarItems = [
 ]
 
 const Header = () => {
-  const [sticky, setSticky] = useState(false)
+  const [isVisible, setIsVisible] = useState(true)
+  const [isScrolled, setIsScrolled] = useState(false)
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
       const isShow = currPos.y > prevPos.y
-      if (isShow !== sticky) setSticky(isShow)
+      if (isShow !== isVisible) setIsVisible(isShow)
+      setIsScrolled(currPos.y !== 0)
     },
-    [sticky]
+    [isVisible]
   )
 
   return (
     <header
-      className="h-[100px] fixed flex justify-between items-center w-full px-[25px] md:px-[50px] font-mono text-sm bg-[#0a192f]"
+      className="fixed flex justify-between items-center w-full px-[25px] md:px-[50px] font-mono text-sm bg-[#0a192f]"
       style={{
-        transform: !sticky ? 'translateY(-100%)' : 'translateY(0)',
-        transition: 'transform 250ms ease-in',
+        transform: isVisible ? 'translateY(0)' : 'translateY(-100%)',
+        transition: 'transform 250ms ease-in, height 300ms ease-in-out',
+        height: isScrolled ? 70 : 100,
+        boxShadow: isScrolled ? '0 10px 30px -10px #020c1bb3' : '',
       }}
     >
       <a href="#">
