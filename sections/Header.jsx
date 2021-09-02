@@ -136,10 +136,12 @@ const Header = () => {
             {navBarItems.map((item) => (
               <li
                 key={item.name}
-                className="mx-1 p-2.5 hover-green mb-4 last:mb-0"
+                className="mx-1 p-2.5 hover-green mb-4 last:mb-0 w-full text-center"
                 onClick={toggleAside}
               >
-                <a href={item.href}>{item.name}</a>
+                <a className="inline-block" href={item.href}>
+                  {item.name}
+                </a>
               </li>
             ))}
           </ol>
