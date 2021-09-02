@@ -16,6 +16,13 @@ const data = [
       'Consume of RESTful third party vendors.',
       'Team mentoring.',
     ],
+    tech: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Storybook',
+      'React Testing Library',
+    ],
   },
   {
     name: 'Full Stack Developer',
@@ -27,6 +34,14 @@ const data = [
       'Code refactor and bug fixes.',
       'Database migrations.',
       'Peer code review.',
+    ],
+    tech: [
+      '.NET Core',
+      'Angular',
+      'PostgreSQL',
+      'Ionic',
+      'TypeScript',
+      'NHibernate',
     ],
   },
 ]
@@ -76,6 +91,13 @@ const Works = () => {
             {workSelected.tasks.map((task, index) => (
               <li key={index} className="mb-2">
                 {task}
+              </li>
+            ))}
+          </ul>
+          <ul className="font-mono text-xs flex gap-x-3 gap-y-1 mt-4 text-gray tracking-wide flex-wrap">
+            {workSelected.tech.map((tech) => (
+              <li key={tech} className="mb-2 bg-light rounded px-2 py-1">
+                {tech}
               </li>
             ))}
           </ul>
