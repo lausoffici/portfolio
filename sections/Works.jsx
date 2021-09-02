@@ -3,7 +3,7 @@ import SectionHeader from '../components/SectionHeader'
 
 const data = [
   {
-    name: 'Frontend Web Developer',
+    name: 'Frontend Developer',
     company: {
       name: 'Telecom',
       website: 'https://institucional.telecom.com.ar/',
