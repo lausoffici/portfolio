@@ -5,7 +5,7 @@ import GithubIcon from '../../public/imgs/github.svg'
 const Project = ({ title, description, github, demo, tools }) => {
   return (
     <a
-      href={github}
+      href={demo || github || ''}
       target="_blank"
       rel="noreferrer"
       aria-label="External Link"
@@ -18,6 +18,11 @@ const Project = ({ title, description, github, demo, tools }) => {
             className="text-gray hover-green"
             width={22}
             alt="Github"
+            aria-label="External Link"
+            onClick={(e) => {
+              e.stopPropagation()
+              window.open(github, '_blank')
+            }}
           />
           {demo && (
             <div
