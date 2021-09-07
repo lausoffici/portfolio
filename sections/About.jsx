@@ -29,8 +29,8 @@ const About = () => (
         software development started back in 2016 when I began the career of
         Systems Engineering at{' '}
         <Link href="https://frba.utn.edu.ar/">UTN FRBA</Link>. There I started
-        learning algorithms and imperative programming using C++. Then we learnt
-        the different programming paradigms focusing on OOP using Java. We also
+        learning algorithms and imperative programming using C++. Then I learnt
+        the different programming paradigms focusing on OOP using Java. I also
         studied relational and no-relational Databases and Front-end
         technologies to build a Full-Stack project.
       </p>
@@ -42,10 +42,10 @@ const About = () => (
         TypeScript, .NET Core, PostgreSQL and Hibernate.
       </p>
       <p className="mb-4">
-        Currently, I am working developing a Next.js application at{' '}
+        Currently, I am working on the development of a Next.js application at{' '}
         <Link href="https://institucional.telecom.com.ar/">Telecom</Link>. I
         love React.js and Next.js so I&apos;m interested in getting more
-        experience on these technologies and the Front-end development.
+        experience in these technologies and the Front-end development.
       </p>
       <p>Here are a few technologies I&#39;ve been working with recently:</p>
       <ul className="styled skills-list font-mono text-sm mt-6">

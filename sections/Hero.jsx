@@ -8,10 +8,10 @@ const Hero = () => (
       <h3 className="big-heading">I build things for the web.</h3>
     </div>
     <p className="text-lg max-w-[500px] mb-12">
-      I&apos;m a software developer passionate of learning new technologies and
-      the correct use of them. I enjoy teamwork, especially when I can improve
-      my skills learning or teaching when working. I am always working to
-      develop high quality products.
+      I&apos;m a young and enthusiastic software developer passionate about
+      learning new technologies and the correct use of them. I enjoy teamwork,
+      especially when I can improve my skills learning or teaching when working.
+      I am always working to develop high quality products.
     </p>
     <a href="mailto:lautarosoffici@gmail.com">
       <Button className="font-mono px-7 py-4">Get In Touch</Button>
