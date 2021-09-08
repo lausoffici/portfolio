@@ -10,7 +10,7 @@ const data = [
     },
     range: 'Mar 2021 - Present',
     tasks: [
-      "Development of a Next.js app, currently on an project's MVP stage.",
+      'Development of a Next.js web app.',
       'Propose refactors and new tools in order to achieve technical requirements.',
       'Promove team-working and communication.',
       'Consume of RESTful third party vendors.',
