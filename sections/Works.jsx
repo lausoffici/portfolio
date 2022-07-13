@@ -3,15 +3,37 @@ import SectionHeader from '../components/SectionHeader'
 
 const data = [
   {
+    name: 'UI Engineer',
+    company: {
+      name: 'Sifted',
+      website: 'https://sifted.com/',
+    },
+    range: 'May 2022 - Present',
+    tasks: [
+      'Development of a client-side React.js web application with CRA.',
+      'Unit and Integration testing.',
+      'Mantainment of a Storybook component library.',
+      'Working with feature teams',
+    ],
+    tech: [
+      'React.js',
+      'Storybook',
+      'Cypress',
+      'AntD',
+      'React Testing Library',
+      'Emotion',
+    ],
+  },
+  {
     name: 'Frontend Developer',
     company: {
       name: 'Telecom',
-      website: 'https://institucional.telecom.com.ar/',
+      website: 'https://www.telecom.com.ar/',
     },
-    range: 'Mar 2021 - Present',
+    range: 'Mar 2021 - May 2022',
     tasks: [
       'Development of a Next.js web app.',
-      'Propose refactors and new tools in order to achieve technical requirements.',
+      'Proposal of refactors and new tools in order to achieve technical requirements.',
       'Promove team-working and communication.',
       'Consume of RESTful third party vendors.',
       'Team mentoring.',
@@ -37,7 +59,7 @@ const data = [
     ],
     tech: [
       '.NET Core',
-      'Angular',
+      'AngularJS',
       'PostgreSQL',
       'Ionic',
       'TypeScript',
@@ -74,14 +96,13 @@ const Works = () => {
           <h2 className="text-xl text-white">
             {workSelected.name}{' '}
             <span className="text-green">
-              @{' '}
               <a
                 href={workSelected.company.website}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="border-green hover:border-b-[1px]">
-                  {workSelected.company.name}
+                  @ {workSelected.company.name}
                 </span>
               </a>
             </span>

@@ -19,11 +19,11 @@ const data = [
     tools: ['React.js', 'TypeScript', 'styled-components'],
   },
   {
-    title: 'My little school',
+    title: 'My little house',
     description:
       "Managament of students' data like personal information, debts and notes.",
-    github: 'https://github.com/lausoffici/my-little-school',
-    tools: ['Express', 'MongoDB', 'TypeScript', 'React.js'],
+    github: 'https://github.com/lausoffici/my-little-house',
+    tools: ['Next.js', 'MongoDB', 'TypeScript'],
   },
 ]
 
