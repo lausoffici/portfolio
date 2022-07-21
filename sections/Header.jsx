@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import Button from '../components/Button'
 import Logo from '../public/logo.svg'
 import { useScrollPosition } from '../hooks/useScrollPosition'
+import { motion } from 'framer-motion'
 
 const navBarItems = [
   {
@@ -95,18 +96,35 @@ const Header = () => {
       }}
       ref={headerRef}
     >
-      <a href="#">
+      <motion.a
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6 }}
+        href="#"
+      >
         <Logo id="logo" width={42} height={42} />
-      </a>
+      </motion.a>
       <div className="hidden md:flex">
         <ol className="flex justify-center items-center mr-4 text-[#C7D1F0] tracking-wider">
-          {navBarItems.map((item) => (
-            <li key={item.name} className="mx-1 p-2.5 hover-green">
+          {navBarItems.map((item, index) => (
+            <motion.li
+              initial={{ opacity: 0, translateY: -20 }}
+              animate={{ opacity: [0, 0, 0, 1], translateY: 0 }}
+              transition={{ duration: 0.3, delay: (index + 1) / 11 }}
+              key={item.name}
+              className="mx-1 p-2.5 hover-green"
+            >
               <a href={item.href}>{item.name}</a>
-            </li>
+            </motion.li>
           ))}
         </ol>
-        <ResumeButton className="px-4 py-2" />
+        <motion.div
+          initial={{ opacity: 0, translateY: -20 }}
+          animate={{ opacity: 1, translateY: 0 }}
+          transition={{ duration: 0.3, delay: 0.7 }}
+        >
+          <ResumeButton className="px-4 py-2" />
+        </motion.div>
       </div>
       <div
         className="flex flex-col md:hidden w-6 h-6 cursor-pointer z-50"

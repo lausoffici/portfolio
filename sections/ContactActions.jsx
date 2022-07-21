@@ -1,6 +1,7 @@
 import GithubLogo from '../public/imgs/github.svg'
 import LinkedinLogo from '../public/imgs/linkedin.svg'
 import TwitterLogo from '../public/imgs/twitter.svg'
+import { motion } from 'framer-motion'
 
 export const actions = [
   {
@@ -22,7 +23,12 @@ export const actions = [
 
 const ContactActions = () => (
   <div className="hidden md:block text-[#A8B2D1]">
-    <div className="w-10 fixed bottom-0 left-5 lg:left-10 right-auto">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 1.5 }}
+      className="w-10 fixed bottom-0 left-5 lg:left-10 right-auto"
+    >
       <ul className="flex flex-col items-center relative">
         {actions.map((a) => {
           const LogoSvg = a.svg
@@ -40,8 +46,13 @@ const ContactActions = () => (
         })}
         <li className="mt-5 w-[1px] h-[90px] border-l-[1px]" />
       </ul>
-    </div>
-    <div className="w-10 fixed bottom-0 right-5 lg:right-10 left-auto font-mono">
+    </motion.div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 1.5 }}
+      className="w-10 fixed bottom-0 right-5 lg:right-10 left-auto font-mono"
+    >
       <div className="flex flex-col items-center relative">
         <a
           className="text-sm tracking-widest my-2 hover-green hover:-translate-y-1 cursor-pointer"
@@ -52,7 +63,7 @@ const ContactActions = () => (
         </a>
         <div className="mt-5 w-[1px] h-[90px] border-l-[1px]" />
       </div>
-    </div>
+    </motion.div>
   </div>
 )
 
