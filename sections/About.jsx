@@ -2,11 +2,11 @@ import SectionHeader from '../components/SectionHeader'
 
 const skills = [
   'JavaScript (ES6+)',
-  'Node.js',
-  'Next.js',
+  'React.js',
   'Tailwind CSS',
   'TypeScript',
-  'REST',
+  'Framer Motion',
+  'Cypress',
 ]
 
 const Link = ({ children, href }) => (
@@ -35,17 +35,21 @@ const About = () => (
         technologies to build a Full-Stack project.
       </p>
       <p className="mb-4">
-        When I got my first job at{' '}
-        <Link href="http://datastar.com.ar/">Datastar</Link> I could consolidate
-        my knowledge by maintaining both front-end (web & mobile) and back-end
-        applications. There I learnt a few technologies like Angular,
-        TypeScript, .NET Core, PostgreSQL and Hibernate.
+        When I got my first job I could consolidate my knowledge by maintaining
+        both front-end (web & mobile) and back-end applications. There I learnt
+        a few technologies like Angular, TypeScript, .NET Core, PostgreSQL and
+        Hibernate.
       </p>
       <p className="mb-4">
-        Currently, I am working on the development of a Next.js application at{' '}
-        <Link href="https://institucional.telecom.com.ar/">Telecom</Link>. I
-        love React.js and Next.js so I&apos;m interested in getting more
-        experience in these technologies and the Front-end development.
+        I&#39;m a strong advocate of code quality and better engineering
+        practices as well as capable of understanding and influencing the
+        business priorities.
+      </p>
+      <p className="mb-4">
+        Currently, I am working as a Frontend Engineer and my preferred
+        framework is React. I love to bring enjoyable digital experiences to
+        users and customers. My plan is to use my qualities in a front-end
+        developer role that allows me to further develop my skills.
       </p>
       <p>Here are a few technologies I&#39;ve been working with recently:</p>
       <ul className="styled skills-list font-mono text-sm mt-6">
