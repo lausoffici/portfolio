@@ -171,7 +171,11 @@ const Header = () => {
 }
 
 const ResumeButton = ({ className }) => (
-  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+  <a
+    href="/lautaro-soffici-resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <Button className={className}>Resume</Button>
   </a>
 )
