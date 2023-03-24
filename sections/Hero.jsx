@@ -14,10 +14,13 @@ const Hero = () => (
         <h3 className="big-heading">I build things for the web.</h3>
       </div>
       <p className="text-lg max-w-[500px] mb-12">
-        I&apos;m a young and enthusiastic software developer passionate about
-        learning new technologies and the correct use of them. I enjoy teamwork,
-        especially when I can improve my skills learning or teaching when
-        working. I am always working to develop high quality products.
+        As a highly motivated and skilled software developer, I am committed to
+        constantly expanding my knowledge of the latest technologies and best
+        practices in the industry. I thrive in collaborative environments where
+        I can both learn from and teach my peers, and I am always seeking to
+        improve my skills and contribute to the development of high-quality
+        products. With a passion for innovation and a dedication to excellence,
+        I am confident in my ability to make valuable contributions to any team.
       </p>
       <a href="mailto:lautarosoffici@gmail.com">
         <Button className="font-mono px-7 py-4">Get In Touch</Button>

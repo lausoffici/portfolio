@@ -3,6 +3,14 @@ import Project from '../components/Project'
 
 const data = [
   {
+    title: 'Word Game',
+    description:
+      'Recreation of the popular online word game, Wordle. This project was part of "Joy of React" course by @joshwcomeau.',
+    github: 'https://github.com/lausoffici/word-clone',
+    demo: 'https://word-clone-lsoffici.vercel.app/',
+    tools: ['React.js'],
+  },
+  {
     title: 'LoL Team Randomizer',
     description:
       'Developed in order to have the best experience when randomizing 10 players (5vs5).',
